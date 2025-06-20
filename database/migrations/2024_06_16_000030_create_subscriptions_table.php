@@ -14,7 +14,6 @@ return new class extends Migration {
             $table->unsignedBigInteger('event_id');
             $table->timestamp('subscription_date');
             $table->string('status', 50);
-            $table->string('assessment');
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at');
 
